@@ -85,7 +85,7 @@ def get_accuracy(testset, predictions):
 # Main program
 if __name__ == '__main__':
     # Load 2/3 into training set from file
-    (trainingset, testset) = loaddata('iris.csv', 0.66)
+    (trainingset, testset) = loaddata('../datasets/iris.csv', 0.66)
     predictions = []
     k = 3
 
